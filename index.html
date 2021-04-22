@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<title>Beilic Maria</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img id="img1" src="img/mee.jpg" >
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item-w3-button" >HOME</a>
+    <a href="#about" class="w3-bar-item-w3-button">ABOUT</a>
+    <a href="#photos" class="w3-bar-item-w3-button">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item-w3-button" >CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Beilic Maria.</h1>
+    <div class="about-me-text"><p>A magnificent vision of chaos.</p></div>
+    <img id="img2" src="img/me.jpg" alt="me" class="w3-image circular--square">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey" >Beilic Maria</h2>
+    <hr  class="w3-opacity">
+    <p>
+„Nu-mi vezi sufletul cum iese<br>
+In haotice cuvinte,<br>
+Au innebunit salcamii<br>
+Si tu vrei sa fiu cuminte?”<br>
+-Tudor Gheorghe
+
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <hr  class="w3-opacity">
+
+    <p class="w3-wide">Programming</p>
+    <div class="w3-white">
+      <div id="skill3" class="w3-dark-grey" ></div>
+    </div>
+
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div id="skill1" class="w3-dark-grey" ></div>
+    </div>
+
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div id="skill2" class="w3-dark-grey"></div>
+    </div><br>
+
+   
+
+       <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Programming languages</h3>
+    <hr  class="w3-opacity">
+    <table id="programm" class="w3-row-padding">
+   
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">      
+          <li class="w3-padding-16">C</li> 
+          <li class="w3-padding-16">C#</li>
+          <li class="w3-padding-16">C++</li>   
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-padding-16">Java</li>
+          <li class="w3-padding-16" >Python</li>
+          <li class="w3-padding-16">Assembly</li>
+        </ul>
+      </div>
+    </table>
+    <!-- End Grid/Pricing tables -->
+  
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr  class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" >
+      <div class="w3-half">
+        <img id="Portfolio" src="img/1.jpg" >
+        <img id="Portfolio"src="img/2.jpg" >
+        <img id="Portfolio"src="img/3.jpg" >
+      </div>
+
+      <div class="w3-half">
+        <img id="Portfolio" src="img/4.jpg" >
+        <img id="Portfolio"src="img/5.jpg" >
+        <img id="Portfolio"src="img/6.jpg">
+      
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div  class="w3-section">
+      <p><i  class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Suceava, Liteni, 727335</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>  0757878825</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>  beilic.maria@gmail.com</p>
+    </div><br>
+    <p >Let's get in touch. Send me a message: </p>
+    <a href="https://www.facebook.com/maria.beilic/" target="_blank" class="w3-hover-text-green"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/beilicmaria/" target="_blank" class="w3-hover-text-green"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
+    <a href="https://twitter.com/BeilicMaria" target="_blank" class="w3-hover-text-green"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+    <a href="https://www.linkedin.com/in/maria-beilic-332284207/" target="_blank" class="w3-hover-text-green"><i class="fa fa-linkedin w3-hover-opacity"></i></a> 
+    <a href="https://ultramariuta.tumblr.com/" target="_blank" class="w3-hover-text-green"><i class="fa fa-tumblr-square w3-hover-opacity"></i></a> 
+    
+
+  </div>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
