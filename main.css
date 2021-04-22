@@ -46,10 +46,19 @@ hr{
  .w3-row-padding{
     margin:0 -16px;
  }
+ .circular--square {
+    border-radius: 50%;
+  }
+  .about-me-text:hover{
+    transition: 5s  cubic-bezier(0.37, 0, 0.63, 1);
+    transform: rotateY(360deg);
+
+  }
+ 
  #Portfolio {
     width:100%;
     height: 100;
-        transition: 0.5s;
+    transition: 0.5s;
 
  }
  #Portfolio:hover {
@@ -77,5 +86,7 @@ hr{
  #programm{
     margin:0 -16px;
  }
+
+ 
 
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
