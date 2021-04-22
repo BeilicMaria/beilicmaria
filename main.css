@@ -1,0 +1,92 @@
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif
+}
+hr{
+    width:200px;
+}
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+.w3-sidebar {
+    width: 120px;background: #222;
+}
+
+#main {
+    margin-left: 120px
+}
+#w3-bar-item-w3-button{
+    width:25% !important
+
+}
+#img1{
+   width:100%
+
+}
+#img2{
+    width:60%;
+    height: 70%;
+    margin: 40;
+  
+ 
+ }
+ #skill1{
+    height:28px;
+    width:95%;
+
+ }
+ #skill2{
+    height:28px;
+    width:60%;
+ }
+ #skill3{
+    height:28px;
+    width:73%;
+ }
+ .w3-row-padding{
+    margin:0 -16px;
+ }
+ .circular--square {
+    border-radius: 50%;
+  }
+  .about-me-text:hover{
+    transition: 5s  cubic-bezier(0.37, 0, 0.63, 1);
+    transform: rotateY(360deg);
+
+  }
+ 
+ #Portfolio {
+    width:100%;
+    height: 100;
+    transition: 0.5s;
+
+ }
+ #Portfolio:hover {
+    width:90%;
+    height:90%;
+    
+    margin-left: 5%;
+    margin-right: 5% ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    transition: 0.5s;
+  
+  
+
+ }
+
+ li{
+     margin-left: 0px;
+     transition: margin-left 0.5s;
+ }
+ li:hover{
+     margin-left:40px ;
+ }
+ #programm{
+    margin:0 -16px;
+ }
+
+ 
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
